@@ -10,7 +10,7 @@ const Card = (props) => {
         <div className="header">
           <div className="name">
             <span> WELCOME</span>
-            <span style={{ fontWeight: "bold", marginLeft: "1rem" }}>Yash</span>
+            <span style={{ fontWeight: "bold", marginLeft: "1rem" }}>Hareesh</span>
           </div>
           <div className="logo">
             <span>
