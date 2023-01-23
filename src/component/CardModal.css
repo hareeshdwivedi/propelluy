@@ -1,0 +1,61 @@
+.Warning_card{
+    text-align: center;
+}
+
+.Warning_card p{
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.unmarked_btn{
+    display: flex;
+    align-items: center; 
+     justify-content:center;
+     gap:20px; 
+     margin-top: 0.6em;  
+}
+
+.unmarked_btn-2{
+    padding: 0.5em;
+    border: none;
+    border-radius: 150px;
+    background: rgba(253, 233, 234, 1);
+    cursor: pointer;
+    color: rgba(239, 79, 83, 1);
+    width: 8em;
+    font-weight: bold;
+    font-size: medium;   
+}
+
+.unmarked_btn-1{
+    padding: 0.5em;
+    border: none;
+    border-radius: 150px;
+    background: #E9DCFA;
+    font-size: medium;
+    cursor: pointer;
+    color: #5516AA;
+    width: 8em;
+    font-weight: bold;
+}
+
+.react-responsive-modal-modal{
+    background: #FFFFFF;
+box-shadow: 0px -4px 24px rgba(94, 129, 244, 0.25);
+border-radius: 16px 16px 16px 16px;
+
+}
+
+@media screen and (min-width: 360px) and (max-width: 550px) {
+    .react-responsive-modal-container{
+        position: relative;
+    }
+
+    .react-responsive-modal-modal{
+    border-radius: 16px 16px 0px 0px;
+    position: absolute;
+    bottom: -20px;
+    left: -19px;
+    width: 90vw;
+    }
+}
